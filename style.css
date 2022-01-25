@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: lavender;
+}
+
+.container {
+  background-color: #fff;
+  width: 22rem;
+}
+
+header {
+  background-color: plum;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-weight: 600;
+}
+
+form {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#search input{
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.add-item input {
+  width: 80%;
+  padding: 0.5rem 1rem;
+}
+
+.add-item button {
+  padding: 0.5rem;
+  color: #fff;
+  background-color: rgb(176, 61, 176);
+  border: 2px solid rgb(176, 61, 176);
+  border-radius: 2px;
+}
+
+button:active {
+  color: rgb(176, 61, 176);
+  background-color: #fff;
+  border: 2px solid rgb(176, 61, 176);
+}
+
+#list_items {
+  padding: 1rem 1.5rem;
+}
+
+.instructions {
+  color: rgb(149, 149, 149);
+  list-style: none;
+}
+
+.item {
+  list-style: none;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item button {
+  padding: 0.2rem;
+  color: #fff;
+  background-color: rgb(227, 119, 227);
+  border: 2px solid rgb(227, 119, 227);
+  border-radius: 2px;
+}
+
+button:active {
+  color: rgb(227, 119, 227);
+  background-color: #fff;
+  border: 2px solid rgb(227, 119, 227);
+}
+
+.done {
+  text-decoration: line-through;
+  color: rgb(178, 173, 173);
+}

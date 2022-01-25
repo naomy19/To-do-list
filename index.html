@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>To Do List</h1>
+      </header>
+
+      <form id="search">
+        <input type="text" placeholder="Search..." />
+      </form>
+
+      <div id="list">
+        <ul id="list_items">
+          <li class="instructions"><p>Add an item to your list!</p></li>
+          <!-- <li class="item">
+            <p>Study coding</p>
+            <button id="delete" class="delete">x</button>
+          </li> -->
+          <!-- <li class="item">
+            <p>Do the dishes</p>
+            <button id="delete" class="delete">x</button>
+          </li>
+          <li class="item">
+            <p>Read a book</p>
+            <button id="delete" class="delete">x</button>
+          </li> -->
+        </ul>
+      </div>
+
+      <form id="add" class="add-item" autocomplete="off">
+        <input id="userinput" type="text" placeholder="Enter item" />
+        <button id="enter">Enter</button>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
