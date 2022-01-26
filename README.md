@@ -21,9 +21,10 @@
 
 ## About
 
-This is a todo list project made in Andrei Neagoie's ZTM course. 
+This is a todo list project based on Andrei Neagoie's ZTM course. 
 For this project, it was used HTML, CSS and JavaScript.
-<!-- Link: https://naomy19.github.io/Startup-landing-page/ -->
+
+Link: https://naomy19.github.io/to-do-list/
 
 ---
 
@@ -38,7 +39,8 @@ For this project, it was used HTML, CSS and JavaScript.
 ## Layout
 
 <p align="center">
-<!--   <img alt="startup-page" title="#startup-page" src="startup-page-layout.png" width="600px"> -->
+  <img alt="to-do-list" title="#to-do-list" src="./imgs/layout.png" height="400px">
+  <img alt="to-do-list" title="#to-do-list" src="./imgs/layout2.png" height="400px">
 </p>
 
 ---
